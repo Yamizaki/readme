@@ -19,7 +19,11 @@ We are using fastapi to create a REST API that will process the ETL jobs. The AP
         
         
     Forgetting to add environment variables in your shell config (bash/zsh)
-    try with (Dond't forget to change your shell's name):
+
+    (Don't forget to change your shell's name)
+
+    
+    try with:
     ```
     echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
     echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
