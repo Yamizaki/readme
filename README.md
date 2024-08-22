@@ -16,14 +16,18 @@ We are using fastapi to create a REST API that will process the ETL jobs. The AP
 
 
     **Most common errors** 
-             Forgetting to add environment variables in your shell config (bash/zsh)
-            try with (Dond't forget to change your shell's name):
+        
+        
+    Forgetting to add environment variables in your shell config (bash/zsh)
+    try with (Dond't forget to change your shell's name):
     ```
     echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
     echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
     echo 'eval "$(pyenv init -)"' >> ~/.bashrc
     ```     
     **Install necessary libraries**
+    
+    
     You are probably missing important libraries, you can check the libraries [here](https://github.com/pyenv/pyenv/wiki/Common-build-problems).
     
 3. Install python 3.10.13.
