@@ -25,7 +25,7 @@ We are using fastapi to create a REST API that will process the ETL jobs. The AP
     echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
     echo 'eval "$(pyenv init -)"' >> ~/.bashrc
     ```     
-    **Install necessary libraries**
+    Install necessary libraries
     
     
     You are probably missing important libraries, you can check the libraries [here](https://github.com/pyenv/pyenv/wiki/Common-build-problems).
