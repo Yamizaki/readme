@@ -10,7 +10,7 @@ We are using fastapi to create a REST API that will process the ETL jobs. The AP
 ## Local Development Setup
 
 
-##### Make sure you are in the global directory **etl-jobs**!
+### Make sure you are in the global directory **etl-jobs**!
 
 1. Install [pyenv](https://github.com/pyenv/pyenv-installer).
     **Most common errors** 
