@@ -13,6 +13,8 @@ We are using fastapi to create a REST API that will process the ETL jobs. The AP
 ### Make sure you are in the global directory **etl-jobs**!
 
 1. Install [pyenv](https://github.com/pyenv/pyenv-installer).
+
+
     **Most common errors** 
              Forgetting to add environment variables in your shell config (bash/zsh)
             try with (Dond't forget to change your shell's name):
