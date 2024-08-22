@@ -13,6 +13,7 @@ We are using fastapi to create a REST API that will process the ETL jobs. The AP
 ### Make sure you are in the global directory **etl-jobs**!
 
 1. Install [pyenv](https://github.com/pyenv/pyenv-installer).
+
     **Most common errors** 
              Forgetting to add environment variables in your shell config (bash/zsh)
             try with (Dond't forget to change your shell's name):
@@ -24,11 +25,11 @@ We are using fastapi to create a REST API that will process the ETL jobs. The AP
     **Install necessary libraries**
     You are probably missing important libraries, you can check the libraries [here](https://github.com/pyenv/pyenv/wiki/Common-build-problems).
     
-2. Install python 3.10.13.
+3. Install python 3.10.13.
     ```
     pyenv install 3.10.13
     ```
-3. Create the environment.
+4. Create the environment.
 
     ```bash
     SERVICE_HOME=$(pwd)/cloud_run/etl
@@ -39,20 +40,20 @@ We are using fastapi to create a REST API that will process the ETL jobs. The AP
     pip install -r $SERVICE_HOME/requirements.txt
     ```
 
-4. Run the service. You can also use the vscode debugger. 
+5. Run the service. You can also use the vscode debugger. 
 
     ```bash
     cd $SERVICE_HOME && uvicorn main:app --reload --port 8000 --env-file "../.env"
     ```
 
-5. Run the tests.
+6. Run the tests.
 
     ```bash
     SERVICE_HOME=$(pwd)/cloud_run/etl
     cd $SERVICE_HOME && pytest -vv
     ```
 
-6. Run the linter.
+7. Run the linter.
 
     ```bash
     SERVICE_HOME=$(pwd)/cloud_run/etl
